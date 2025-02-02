@@ -1,0 +1,25 @@
+# Obtenir les dernières modifications
+
+- git pull origin main
+
+
+# Créer une nouvelle branche
+
+- git checkout -b feature/nombre-caracteristique
+
+
+# Sauvegarder les modifications
+- git add .
+- git commit -m "Description du changement"
+
+
+# Pousser les modifications
+- git push origin feature/nombre-caracteristique
+
+# Démarrer le serveur de développement
+- php -S localhost:8000
+
+# Dans un autre terminal, pour la compilation automatique
+- php -S localhost:8001
+
+ou ( extension dans vscod (Live Server ))
